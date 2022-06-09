@@ -22,15 +22,21 @@
             <a class="logo link" href="index.html"><span class="logo-bracket">Web</span>Studio</a>
             <nav class="header-nav">
                 <ul class="header-list list">
-                    <li class="header-item"><a class="link" href="index.html" target="_self">Студия</a></li>
-                    <li class="header-item"><a class="link current" href="portfolio.html" target="_self">Портфолио</a>
-                    </li>
+                    <li class="header-item"><a class="link current" href="index.html" target="_self">Студия</a></li>
+                    <li class="header-item"><a class="link" href="portfolio.html" target="_self">Портфолио</a></li>
                     <li class="header-item"><a class="link" href="">Контакты</a></li>
                 </ul>
             </nav>
             <ul class="contacts list">
-                <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="header-tel"><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li><a class="link" href="mailto:info@devstudio.com">
+                        <svg width="16" height="12" class="contacts-icon">
+                            <use href="./images/icons.svg#icon-mail"></use>
+                        </svg>
+                        info@devstudio.com</a></li>
+                <li class="header-tel"><a class="link" href="tel:+380961111111">
+                        <svg width="10" height="12" class="contacts-icon">
+                            <use href="./images/icons.svg#icon-phone"></use>
+                        </svg>+38 096 111 11 11</a></li>
             </ul>
         </div>
     </header>
@@ -121,18 +127,54 @@
     </main>
     <footer class="footer">
         <div class="container">
-            <a class="footer-logo link" href="index.html"><span class="logo-bracket">Web</span>Studio</a>
-            <address class="address">
-                <a class="link" href="https://goo.gl/maps/Ysp8wWhHFBnGZ7G2A" target="_blank"
-                    rel="noopener noreferrer">г.
-                    Киев, пр-т
-                    Леси Украинки,
-                    26</a>
-            </address>
-            <ul class="contacts list">
-                <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
+            <div class="contact-box">
+                <a class="footer-logo link" href="index.html"><span class="logo-bracket">Web</span>Studio</a>
+                <address class="address">
+                    <a class="link" href="https://goo.gl/maps/Ysp8wWhHFBnGZ7G2A" target="_blank"
+                        rel="noopener noreferrer">г.
+                        Киев, пр-т
+                        Леси Украинки,
+                        26</a>
+                </address>
+                <ul class="contacts list">
+                    <li class="contacts-item"><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li class="contacts-item"><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                </ul>
+            </div>
+            <div class="join">
+                <h3 class="join-header">Присоединяйтесь</h3>
+                <ul class="join-list">
+                    <li class="list join-item">
+                        <a href="" class="join-link">
+                            <svg class="join-ico" width="20" height="20">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list join-item">
+                        <a href="" class="join-link">
+                            <svg class="join-ico" width="20" height="20">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list join-item">
+                        <a href="" class="join-link">
+                            <svg class="join-ico" width="20" height="20">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list join-item">
+                        <a href="" class="join-link">
+                            <svg class="join-ico" width="20" height="20">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>
